@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/*------------------------Header--------------------*/
+.clearfix {
+  clear: both;
+}
+header {
+  /* border: 1px solid white; */
+  width: 100%;
+  /* height: 60px; */
+  position: fixed;
+  z-index: 6666;
+}
+header a {
+  text-decoration: none;
+}
+header a img {
+  width: 160px;
+  float: left;
+  margin: 10px 0 20px 100px;
+}
+nav {
+  color: white;
+  /* width: 49%; */
+  /* border: 1px solid red; */
+  /* margin-right: 10px; */
+}
+nav ul {
+  margin: 30px 100px 20px 100px;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #7e6a6d;
+}
+/*------------------------Section Home--------------------*/
+section {
+  width: 100%;
+}
+section img {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+section .sec-home {
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 6% auto;
+}
+section .sec-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+section .sec-home h2 {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 24px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-home h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 70px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-home p {
+  color: rgb(212, 199, 199);
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-home button {
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  margin-bottom: 40px;
+}
+section .sec-home button.brown-btn {
+  background-color: #8e7754;
+  color: white;
+}
+section .sec-home button.brown-btn:hover {
+  background-color: #fff;
+  color: black;
+}
+section .sec-home button.clear-style-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+section .sec-home button.clear-style-btn:hover {
+  background-color: #fff;
+  color: black;
+}
+section .sec-home img {
+  width: 8%;
+  height: 8%;
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+}
+/*------------------------Section About--------------------*/
+.sec-about {
+  width: 90%;
+  height: auto;
+  margin: 40px auto;
+  padding: 20px;
+}
+section .sec-about .left-side {
+  width: 50%;
+  padding: 15px 20px;
+  text-align: center;
+  float: left;
+}
+section .sec-about .left-side img {
+  width: 95%;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+}
+section .sec-about .right-side {
+  width: 50%;
+  padding: 15px 20px;
+  float: right;
+  text-align: center;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  margin-top: 50px;
+}
+section .sec-about .right-side h2 {
+  font-family: Alegreya, serif, monospace;
+
+  margin-bottom: 30px;
+  color: #303030;
+}
+section .sec-about .right-side p {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-about .right-side ul {
+  text-align: left;
+  list-style: none;
+}
+section .sec-about .right-side ul li {
+  margin-bottom: 40px;
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-about .right-side ul .fa {
+  width: 35px;
+  height: 35px;
+  border: 0.5px solid #8e7754;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  font-size: 16px;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  line-height: 2;
+  margin-right: 5px;
+}
+section .sec-about .right-side ul .fa-check,
+section .sec-about .right-side ul .fa-users,
+section .sec-about .right-side ul .fa-heart {
+  color: #8e7754;
+}
+section .sec-about .right-side ul li p {
+  display: inline-block;
+  line-height: 1;
+}
+
+/*------------------------Section Our Offer--------------------*/
+
+section .sec-our-offer {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+section .sec-our-offer .left-side {
+  width: 50%;
+  padding: 15px 20px;
+  float: left;
+  text-align: center;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  margin-top: 50px;
+}
+section .sec-our-offer .left-side h2 {
+  font-family: Alegreya, serif, monospace;
+  margin-bottom: 30px;
+  color: #303030;
+}
+section .sec-our-offer .left-side p {
+  color: #686868;
+  line-height: 2.2em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-our-offer .right-side {
+  width: 50%;
+  padding: 15px 20px;
+  text-align: center;
+  float: left;
+}
+section .sec-our-offer .right-side img {
+  width: 95%;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+}
+/*------------------------Section Gallery--------------------*/
+section .sec-gallery {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+section .sec-gallery h2 {
+  font-family: Alegreya, serif, monospace;
+  margin-bottom: 30px;
+  color: #303030;
+}
+section .sec-gallery p {
+  color: #686868;
+  line-height: 2.2em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-gallery .item {
+  width: calc(95% / 3);
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+section .sec-gallery .item img {
+  width: 95%;
+  height: auto;
+}
+section .sec-gallery h3 {
+  font-family: Alegreya, serif, monospace;
+  margin: 20px 0;
+  color: #303030;
+}
+
+/*------------------------Section Blog--------------------*/
+section .sec-blog {
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+section .sec-blog .right-side {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+section .sec-blog .right-side h2 {
+  font-family: Alegreya, serif, monospace;
+  margin-bottom: 30px;
+  color: #303030;
+}
+section .sec-blog .right-side p {
+  color: #686868;
+  line-height: 2.2em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  display: inline-block;
+}
+section .sec-blog .right-side h3 {
+  text-align: left;
+  margin-bottom: 1px;
+  color: #686868;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-blog .right-side ul {
+  list-style: none;
+  text-align: left;
+  color: #686868;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+section .sec-blog .right-side ul i {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #8e7754;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 5px;
+  background-color: #8e7754;
+  color: white;
+
+  text-align: center;
+  line-height: 3em;
+}
+section .sec-blog .left-side {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 20px 0;
+}
+/*------------------------Section Contact--------------------*/
+
+section .sec-contact {
+  background-color: #403d38;
+  width: 100%;
+  padding: 30px;
+}
+section .sec-contact .one,
+section .sec-contact .two,
+section .sec-contact .three,
+section .sec-contact .four {
+  width: calc(100% / 4);
+  float: left;
+  color: white;
+}
+section .sec-contact .one h3,
+section .sec-contact .two h3,
+section .sec-contact .three h3,
+section .sec-contact .four h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+section .sec-contact .one p {
+  font-size: 18px;
+  color: #969696;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+section .sec-contact .two ul li,
+section .sec-contact .three ul li,
+section .sec-contact .four ul li {
+  list-style: none;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #969696;
+  font-size: 23px;
+}
+
+section .sec-contact .four ul li i,
+section .sec-contact .four ul li p {
+  display: inline-block;
+}
+/*------------------------Footer--------------------*/
+
+footer {
+  width: 100%;
+  background-color: #353330;
+  text-align: center;
+  padding: 30px;
+}
+
+footer img {
+  width: 22%;
+  margin-bottom:  20px;
+}
+footer p {
+  font-size: 14px;
+  color: #969696;
+}
+
+.fa,
+.bi {
+  padding: 25px;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook,
+.fa-google-plus,
+.fa-linkedin,
+.fa-twitter {
+  background: #403d38;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+}
